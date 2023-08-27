@@ -2,7 +2,7 @@ on:
   push:
     branches: [development, master]
 
-name: Deploy blog-service App on ECS
+name: Deploy blog-service App to ECS service
 
 permissions:
   id-token: write 
